@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, maximun-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Hell's Kitchen Coffe - por Diego</title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <nav class="menu">
+          <a href="#" id="btn-acerca-de">Acerca de</a>
+          <a href="#" id="btn-menu">Menú</a>
+          <a href="#" id="btn-galeria">Galería</a>
+          <a href="#" id="btn-ubicacion">Ubicación</a>
+        </nav>
+        <div class="textos">
+          <h1 class="nombre">Hell's Kitchen <span>Coffe</span></h1>
+          <h3>~ El mejor cafe de la ciudad ~</h3>
+        </div>
+      </div>
+    </header>
+
+    <section class="main">
+      <!-- Acerca De -->
+      <section class="acerca-de" id="acerca-de">
+        <div class="contenedor">
+          <div class="foto">
+            <img src="./img/acerca-de.jpg" alt="" />
+          </div>
+          <article>
+            <h3>Acerca de</h3>
+            <p>
+              Hell's Kitchen es una cafetería ficticia inspirada
+              por el barrio ubicado en Manhattan, Nueva York.
+              Esta cafetería cuenta con los mejores postres del
+              barrio.
+              Contamos con una excelente ubicación para un acceso
+              sencillo.
+              Tenemos los mejores precios, no podrás encontrarlos
+              en ningún otro lado de Nueva York.
+              ¿Qué estás esperando? ¡Ven a probarlos!
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- Menu -->
+      <section class="menu">
+        <div class="contenedor">
+          <h3 class="titulo" id="platillos">Menú</h3>
+          <div class="contenedor-menu">
+            <div class="contenedor-menu2">
+              <article>
+                <p class="categoria">De comer</p>
+                <div class="platillo">
+                  <p class="nombre">Pay de Queso</p>
+                  <p class="precio">$78</p>
+                  <p class="descripcion">Postre relleno de queso</p>
+                </div>
+                <div class="platillo">
+                  <p class="nombre">Pastel de chocolate</p>
+                  <p class="precio">$100</p>
+                  <p class="descripcion">Postre de triple chocolate</p>
+                </div>
+                <div class="platillo">
+                  <p class="nombre">Tempura</p>
+                  <p class="precio">$95</p>
+                  <p class="descripcion">Helado frito</p>
+                </div>
+                <div class="platillo">
+                  <p class="nombre">Tarta de manzana</p>
+                  <p class="precio">$50</p>
+                  <p class="descripcion">Postre con fruta</p>
+                </div>
+              </article>
+              <article>
+                <p class="categoria">De beber</p>
+                <div class="platillo">
+                  <p class="nombre">Chocolate</p>
+                  <p class="precio">$48</p>
+                  <p class="descripcion">Bebida fría o caliente</p>
+                </div>
+                <div class="platillo">
+                  <p class="nombre">Capuchinno</p>
+                  <p class="precio">$80</p>
+                  <p class="descripcion">Cafe con espuma</p>
+                </div>
+                <div class="platillo">
+                  <p class="nombre">Frappé</p>
+                  <p class="precio">$81</p>
+                  <p class="descripcion">Bebida tipo raspado</p>
+                </div>
+                <div class="platillo">
+                  <p class="nombre">Té</p>
+                  <p class="precio">$39</p>
+                  <p class="descripcion">Fusión de sabores</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="galeria" id="galeria">
+        <div class="foto">
+          <img src="./img/cafeteria1.jpg" alt="" />
+        </div>
+        <div class="foto">
+          <img src="./img/cafeteria2.jpg" alt="" />
+        </div>
+        <div class="foto">
+          <img src="./img/cafeteria3.jpg" alt="" />
+        </div>
+        <div class="foto">
+          <img src="./img/cafeteria4.jpg" alt="" />
+        </div>
+        <div class="foto">
+          <img src="./img/cafeteria5.jpg" alt="" />
+        </div>
+        <div class="foto">
+          <img src="./img/cafeteria6.jpg" alt="" />
+        </div>
+        <div class="foto">
+          <img src="./img/cafeteria7.jpg" alt="" />
+        </div>
+        <div class="foto">
+          <img src="./img/cafeteria8.jpg" alt="" />
+        </div>
+      </section>
+
+      <section class="ubicacion" id="ubicacion">
+        <div class="contenedor">
+          <h3 class="titulo">Ubicación</h3>
+          <div class="direccion">
+            <p class="calle">Jaral de Peña <br />México, 76200</p>
+            <p class="telefono">4458239928</p>
+            <p class="correo">hellskitchen@gmail.com</p>
+          </div>
+          <div class="horarios">
+            <h4>Horarios</h4>
+            <p class="entre-semana">Lunes a Viernes <br />8:00 - 20:00</p>
+            <p class="fin-semana">Sábado a Domingo <br />8:00 - 17:00</p>
+          </div>
+        </div>
+      </section>
+      <section class="mapa">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="600"
+              height="500"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer>
+      <div class="contenedor">
+        <div class="copyright">
+          <p>Copyright 2022 - Diego Galván</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./jquery.js"></script>
+  <script src="./js/efectos.js"></script>
+  <script src="./js/parallax.js"></script>
+</html>
